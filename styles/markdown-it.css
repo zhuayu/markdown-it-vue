@@ -1,0 +1,195 @@
+/* KATEX 公式： */
+@import "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css";
+
+/* 任务列表： */
+.jiker-markdown-it .contains-task-list {
+  padding: 0 !important;
+}
+.jiker-markdown-it .contains-task-list .task-list-item {
+  list-style: none !important;
+}
+
+/* 布局： */
+.jiker-markdown-it .hljs-center {
+  text-align: center;
+}
+.jiker-markdown-it .hljs-right {
+  text-align: right;
+}
+.jiker-markdown-it .hljs-left {
+  text-align: left;
+}
+
+/* 定义型列表： */
+.jiker-markdown-it dt {
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* 默认： */
+.jiker-markdown-it {
+  position: relative;
+  z-index: 1;
+  padding: 22px 15px 40px;
+  min-height: 300px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: transparent;
+  outline: none;
+  word-wrap: break-word;
+  outline: none;
+  cursor: text;
+}
+.jiker-markdown-it > :first-child {
+  margin-top: 0 !important;
+}
+.jiker-markdown-it a {
+  color: #4298BA;
+  text-decoration: none;
+  word-break: break-all;
+}
+.jiker-markdown-it a:visited {
+  color: #4298BA;
+}
+.jiker-markdown-it a:hover {
+  color: #0F769F;
+}
+.jiker-markdown-it a:active {
+  color: #9E792E;
+}
+.jiker-markdown-it a:hover, .jiker-markdown-it a:active {
+  outline: 0;
+}
+.jiker-markdown-it h1, .jiker-markdown-it h2, .jiker-markdown-it h3, .jiker-markdown-it h4, .jiker-markdown-it h5, .jiker-markdown-it h6 {
+  font-weight: normal;
+  margin: 40px 0 20px;
+  color: #000000;
+}
+.jiker-markdown-it h1 {
+  font-size: 24px;
+}
+.jiker-markdown-it h2 {
+  font-size: 22px;
+}
+.jiker-markdown-it h3 {
+  font-size: 20px;
+}
+.jiker-markdown-it h4 {
+  font-size: 18px;
+}
+.jiker-markdown-it h5 {
+  font-size: 16px;
+}
+.jiker-markdown-it h6 {
+  font-size: 16px;
+}
+.jiker-markdown-it p, .jiker-markdown-it div {
+  word-wrap: break-word;
+  margin: 0 0 15px 0;
+  color: #333;
+  word-wrap: break-word;
+}
+.jiker-markdown-it b, .jiker-markdown-it strong {
+  font-weight: bold;
+}
+.jiker-markdown-it i, .jiker-markdown-it em {
+  font-style: italic;
+}
+.jiker-markdown-it u {
+  text-decoration: underline;
+}
+.jiker-markdown-it strike, .jiker-markdown-it del {
+  text-decoration: line-through;
+}
+.jiker-markdown-it ul, .jiker-markdown-it ol {
+  list-style: disc outside none;
+  margin: 15px 0;
+  padding: 0 0 0 40px;
+  line-height: 1.6;
+}
+.jiker-markdown-it ul ul, .jiker-markdown-it ul ol, .jiker-markdown-it ol ul, .jiker-markdown-it ol ol {
+  padding-left: 30px;
+}
+.jiker-markdown-it ul ul, .jiker-markdown-it ol ul {
+  list-style: circle outside none;
+}
+.jiker-markdown-it ul ul ul, .jiker-markdown-it ol ul ul {
+  list-style: square outside none;
+}
+.jiker-markdown-it ol {
+  list-style: decimal;
+}
+.jiker-markdown-it blockquote {
+  border-left: 6px solid #ddd;
+  padding: 5px 0 5px 10px;
+  margin: 15px 0 15px 15px;
+}
+.jiker-markdown-it blockquote > :first-child {
+  margin-top: 0;
+}
+.jiker-markdown-it code {
+  display: inline-block;
+  padding: 0 4px;
+  margin: 0 5px;
+  background: #eeeeee;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: 'monaco', 'Consolas', "Liberation Mono", Courier, monospace;
+}
+.jiker-markdown-it pre {
+  padding: 10px 5px 10px 10px;
+  margin: 15px 0;
+  display: block;
+  line-height: 18px;
+  background: #F0F0F0;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: 'monaco', 'Consolas', "Liberation Mono", Courier, monospace;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow-x: auto;
+}
+.jiker-markdown-it pre code {
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border-radius: 0;
+}
+.jiker-markdown-it hr {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+  padding: 0;
+}
+.jiker-markdown-it table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 15px 0;
+}
+.jiker-markdown-it table thead {
+  background-color: #f9f9f9;
+}
+.jiker-markdown-it table td, .jiker-markdown-it table th {
+  min-width: 40px;
+  height: 30px;
+  border: 1px solid #ccc;
+  vertical-align: top;
+  padding: 2px 4px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.jiker-markdown-it table td.active, .jiker-markdown-it table th.active {
+  background-color: #ffffee;
+}
+.jiker-markdown-it img {
+  margin: 0 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
